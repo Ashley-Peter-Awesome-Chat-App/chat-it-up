@@ -1,0 +1,13 @@
+#messages{
+    
+}
+
+form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+input {
+    width: 50%;
+}

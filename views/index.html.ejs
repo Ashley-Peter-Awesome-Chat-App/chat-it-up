@@ -7,19 +7,18 @@
     <link rel="stylesheet" href="/css/skeleton.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="/socket.io/socket.io.js"></script>
-    <script>
-      var socket = io();
-    </script>
+    <script src="/javascripts/socket.js"></script>
     
   </head>
   
   <body>
     <div class="container">
       <h1>Let's get it started</h1>
-      <form method="GET" action="/teams">
-	<input type="Submit" value="Teams" />
-      </form>
+      <ul id="messages"></ul>
+        <input id="m" autocomplete="off" type="text"/>
+        <button id="send">Send</button>
     </div>
   </body>
 </html>
