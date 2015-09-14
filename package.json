@@ -5,15 +5,19 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.10.2",
-    "node.js": "^0.0.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ashley-Peter-Awesome-Chat-App/chat-it-up.git"
+    "node.js": "^0.0.0",
+    "body-parser": "1.13.x",
+    "ejs": "2.3.x",
+    "method-override": "2.3.x"
+
+},
+"devDependencies": {},
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1"
+},
+"repository": {
+"type": "git",
+"url": "git+https://github.com/Ashley-Peter-Awesome-Chat-App/chat-it-up.git"
   },
   "author": "",
   "license": "ISC",
